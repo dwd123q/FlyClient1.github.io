@@ -1,0 +1,2 @@
+<?php $u=user(); ?>
+<header class="nav wrap"><a class="brand" href="index.php">FLY<span>.</span>CLIENT</a><nav class="navlinks"><a href="index.php#pricing">Цены</a><a href="docs.php">Документация</a><a href="index.php#apply">Заявки</a><?php if($u): ?><a class="btn" href="dashboard.php">Личный кабинет</a><?php else: ?><a class="btn" href="login.php">Войти</a><a class="btn primary" href="register.php">Создать аккаунт</a><?php endif; ?></nav></header>
